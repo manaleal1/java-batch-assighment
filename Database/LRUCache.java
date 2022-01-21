@@ -97,20 +97,20 @@ public class LRUCache{
 
                     System.out.println(l.deque);
                     System.out.println(l.hashmap);
-					System.out.println();
+                    System.out.println();
                 }
             } catch (Exception e) {
                 e.printStackTrace();
-				System.out.println();
+                System.out.println();
             }
         }
     }
 
     public static void main(String[] args) {
         //////////////////////////////////////
-		//Driver code for LRUCache.
-		//Comment out if not needed.
-		//////////////////////////////////////
+        //Driver code for LRUCache.
+        //Comment out if not needed.
+        //////////////////////////////////////
         driverForLRUCache();
     }
 }
