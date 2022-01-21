@@ -108,9 +108,9 @@ public class LRUCache{
 
     public static void main(String[] args) {
         //////////////////////////////////////
-		//driver code for program
-		//comment out if not testing
-		///////////////////////////////////////
+		//Driver code for LRUCache.
+		//Comment out if not needed.
+		//////////////////////////////////////
         driverForLRUCache();
     }
 }
