@@ -1,6 +1,6 @@
 Rest API for many to many relation
 
-Tables: people, books, booksLikes
+Tables: people(id(PK), name), books(id(PK), title), booksLikes(id(PK), p_id(FK), b_id(FK))
 
 One book can be liked by many people. One person can like many books.
 
